@@ -1,21 +1,14 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Construction from './components/construction';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { lazy, Suspense } from 'react';
+
+const LazyHome = lazy(() => import('./components/home'));
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path='/' element={<Suspense fallback={<div>Loading...</div>}><LazyHome /></Suspense>} />
       </Routes>
     </BrowserRouter>
-  );
-}
-
-function HomePage() {
-  return (
-    <div>
-      <Construction />
-    </div>
   );
 }
