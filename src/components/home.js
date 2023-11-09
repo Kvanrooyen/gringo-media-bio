@@ -1,51 +1,61 @@
 import React from 'react';
 import { FaInstagram, FaTiktok, FaEnvelope } from 'react-icons/fa';
 import { SiMastodon, SiBuymeacoffee, SiKofi, SiLiberapay, SiPaypal } from 'react-icons/si';
+import ProfilePhoto from '../assets/ProfilePhoto.jpeg'
 
 const App = () => {
     return (
-        <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
-            <div className="w-full max-w-4xl bg-gray-800 rounded-lg shadow-lg p-8">
-                <div className="flex flex-col items-center">
-                    <img
-                        src=""
-                        alt="Keagan"
-                        className="w-40 h-40 rounded-full mb-4"
-                    />
-                    <h1 className="text-4xl font-bold">Keagan</h1>
-                    <h2 className="text-2xl text-gray-400">Gringo Media</h2>
-                    <p className="text-center text-gray-400 mt-4">
-                        Short and engaging description about Keagan and Gringo Media goes here.
-                    </p>
-                </div>
-                <div className="flex justify-center gap-6 mt-6">
-                    <FaInstagram className="text-xl hover:text-blue-500 cursor-pointer" />
-                    <FaTiktok className="text-xl hover:text-blue-500 cursor-pointer" />
-                    <SiMastodon className="text-xl hover:text-blue-500 cursor-pointer" />
-                    <FaEnvelope className="text-xl hover:text-blue-500 cursor-pointer" />
-                </div>
-                <div className="flex justify-center gap-4 mt-8">
-                    <a href="https://youtube.com" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                        YouTube
-                    </a>
-                    <a href="https://tilvids.com" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                        TILvids
-                    </a>
-                    <a href="https://yourwebsite.com" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                        Website
-                    </a>
-                </div>
-                <h3 className="text-3xl font-bold mt-8 mb-4">Support Me</h3>
-                <div className="flex justify-center gap-4">
-                    <SiBuymeacoffee className="text-3xl hover:text-yellow-400 cursor-pointer" />
-                    <SiKofi className="text-3xl hover:text-pink-500 cursor-pointer" />
-                    <SiLiberapay className="text-3xl hover:text-green-500 cursor-pointer" />
-                    <SiPaypal className="text-3xl hover:text-blue-500 cursor-pointer" />
-                </div>
+        <div className="min-h-screen bg-zinc-800 text-white flex flex-col items-center justify-center px-4">
+            <div className="flex flex-col items-center mt-8 px-4 w-full">
+                <img
+                    src={ProfilePhoto}
+                    alt="Keagan"
+                    className="w-32 h-32 rounded-full mb-4 mt-6"
+                />
+                <h1 className="text-2xl font-bold">Keagan</h1>
+                <h2 className="text-l text-slate-100">@Gringo.Media</h2>
+                <p className="text-center text-slate-100 m-6 mx-auto max-w-xs">
+                    At Gringo Media, my aim is to share my expertise and experiences, helping you to explore and appreciate the dynamic world of videography.
+                </p>
+
             </div>
-            <footer className="mt-8 text-gray-400">
+            <div className="flex justify-center gap-6 mt-6">
+                <a href="https://instagram.com/gringo_media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram className="text-xl cursor-pointer" />
+                </a>
+                <a href="https://tiktok.com/@gringo.media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <FaTiktok className="text-xl cursor-pointer" />
+                </a>
+                <a href="https://mastodon.social/@gringomedia" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <SiMastodon className="text-xl cursor-pointer" />
+                </a>
+                <a href="mailto:hey@gringo.media" className="hover:text-blue-500">
+                    <FaEnvelope className="text-xl cursor-pointer" />
+                </a>
+
+            </div>
+            <div className="flex flex-col items-center gap-4 mt-8 w-full md:max-w-2/3 lg:max-w-1/2 text-center">
+                <a href="https://www.youtube.com/@gringomedia" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                    YouTube
+                </a>
+                <a href="https://tilvids.com/c/gringo_media_channel" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                    TILvids
+                </a>
+                <a href="https://gringo.media" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                    Website
+                </a>
+            </div>
+
+            <h3 className="text-xl font-bold mt-8 mb-4 text-center">Support Me</h3>
+            <div className="flex justify-center gap-4">
+                <a href='https://www.buymeacoffee.com/gringomedia' target="_blank" rel="noopener noreferrer"> <SiBuymeacoffee className="text-xl hover:text-yellow-400 cursor-pointer" /> </a>
+                <a href='https://ko-fi.com/gringomedia' target="_blank" rel="noopener noreferrer"> <SiKofi className="text-xl hover:text-pink-500 cursor-pointer" /></a>
+                <a href='https://liberapay.com/GringoMedia' target="_blank" rel="noopener noreferrer"> <SiLiberapay className="text-xl hover:text-green-500 cursor-pointer" /></a>
+                <a href='https://paypal.me/gringomedia' target="_blank" rel="noopener noreferrer"> <SiPaypal className="text-xl hover:text-blue-500 cursor-pointer" /></a>
+
+            </div>
+            <footer className="mt-8 text-slate-100 text-sm">
                 <p>Copyright © 2023 by Gringo Media. All rights reserved.</p>
-                <p>Remember the site's purpose with a subtle hint.</p>
             </footer>
         </div>
     );
