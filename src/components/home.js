@@ -8,7 +8,7 @@ const App = () => {
     return (
         <div className="background-image">
             {/* Content container */}
-            <div className="content flex flex-col items-center justify-center text-slate-100">
+            <div className="content flex flex-col items-center justify-center px-2 text-slate-100">
                 {/* Content container must be relative to stay on top of the overlay */}
                 <div className=" flex flex-col items-center">
                     <img
