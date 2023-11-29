@@ -30,7 +30,7 @@ const App = () => {
                     <a href="https://tiktok.com/@gringo.media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <FaTiktok className="text-xl cursor-pointer" />
                     </a>
-                    <a href="https://mastodon.social/@gringomedia" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <a href="https://mastodon.ie/@gringomedia" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <SiMastodon className="text-xl cursor-pointer" />
                     </a>
                     <a href="mailto:hey@gringo.media" className="hover:text-blue-500">
