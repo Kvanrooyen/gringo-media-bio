@@ -48,6 +48,12 @@ const App = () => {
                     <a href="https://gringo.media" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
                         Website
                     </a>
+                    <a href="https://www.dehancer.com/store/video/davinci_resolve" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                        10% off Dehancer | GRINGOMEDIA
+                    </a>
+                    <a href="https://ref.audiio.com/33m63ch8" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                        70% off Audiio
+                    </a>
                 </div>
 
                 <h3 className=" text-xl font-bold mt-8 mb-4 text-center">Support Me</h3>
