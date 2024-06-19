@@ -33,7 +33,7 @@ const App = () => {
                     <a href="https://mastodon.ie/@gringomedia" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <SiMastodon className="text-xl cursor-pointer" />
                     </a>
-                    <a href="mailto:hey@gringo.media" className="hover:text-blue-500">
+                    <a href="mailto:info@gringomedia.ie" className="hover:text-blue-500">
                         <FaEnvelope className="text-xl cursor-pointer" />
                     </a>
 
@@ -65,7 +65,7 @@ const App = () => {
 
                 </div>
                 <footer className=" mt-8 text-slate-100 text-sm pb-4">
-                    <p>Copyright © 2023 by Gringo Media. All rights reserved.</p>
+                    <p>Copyright © 2024 by Gringo Media. All rights reserved.</p>
                 </footer>
             </div>
         </div>
