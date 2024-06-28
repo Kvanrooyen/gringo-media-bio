@@ -24,7 +24,7 @@ const App = () => {
 
                 </div>
                 <div className=" flex justify-center gap-6 mt-6">
-                    <a href="https://instagram.com/gringo_media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <a href="https://instagram.com/gringomedia.ie" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-xl cursor-pointer" />
                     </a>
                     <a href="https://tiktok.com/@gringo.media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
