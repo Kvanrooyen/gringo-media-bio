@@ -27,7 +27,7 @@ const App = () => {
                     <a href="https://instagram.com/gringomedia.ie" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="text-xl cursor-pointer" />
                     </a>
-                    <a href="https://tiktok.com/@gringo.media" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
+                    <a href="https://tiktok.com/@gringomedia.ie" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
                         <FaTiktok className="text-xl cursor-pointer" />
                     </a>
                     <a href="https://mastodon.ie/@gringomedia" className="hover:text-blue-500" target="_blank" rel="noopener noreferrer">
@@ -45,7 +45,7 @@ const App = () => {
                     <a href="https://tilvids.com/c/gringo_media_channel" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
                         TILvids
                     </a>
-                    <a href="https://gringo.media" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
+                    <a href="https://gringomedia.ie" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
                         Website
                     </a>
                     <a href="https://www.dehancer.com/store/video/davinci_resolve" className="bg-transparent border-2 border-white hover:border-gray-300 text-white font-bold py-2 px-4 rounded transition duration-300 w-full max-w-xs mx-auto" target="_blank" rel="noopener noreferrer">
