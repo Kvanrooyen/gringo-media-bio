@@ -17,7 +17,6 @@ const App = () => {
                         className="w-32 h-32 rounded-full mb-4 mt-6"
                     />
                     <h1 className="text-2xl font-bold">Keagan</h1>
-                    <h2 className="text-l text-slate-100">@Gringo.Media</h2>
                     <p className="text-center text-slate-100 m-6 mx-auto max-w-sm">
                         At Gringo Media, my aim is to share my expertise and experiences, helping you to explore and appreciate the dynamic world of videography.
                     </p>
