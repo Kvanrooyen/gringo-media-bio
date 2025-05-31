@@ -55,7 +55,7 @@ const LinkInBio: React.FC = () => {
         },
         {
             icon: FaTiktok,
-            url: "https://tiktok.com/@gringomedia.ie",
+            url: "https://tiktok.com/@gringomedia_ie",
             color: "hover:text-white",
             label: "TikTok"
         },
@@ -89,7 +89,7 @@ const LinkInBio: React.FC = () => {
         {
             title: "10% off Dehancer",
             url: "https://www.dehancer.com/store/video/davinci_resolve",
-            description: "Professional color grading tools | Code: GRINGOMEDIA",
+            description: "Professional color grading tools | Code: GRINGOMEDIA10",
             icon: FaFilm,
             isPromo: true
         },
