@@ -92,13 +92,6 @@ const LinkInBio: React.FC = () => {
             description: "Professional color grading tools | Code: GRINGOMEDIA10",
             icon: FaFilm,
             isPromo: true
-        },
-        {
-            title: "70% off Audiio",
-            url: "https://ref.audiio.com/33m63ch8",
-            description: "Royalty-free music and sound effects",
-            icon: FaMusic,
-            isPromo: true
         }
     ];
 
